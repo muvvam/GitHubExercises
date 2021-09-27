@@ -4,8 +4,13 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE,
+                      cache = TRUE)
+
+#what does cache = TRUE do?
+# this means that for any code chunk that I do not change, the stored data will be used (the code wont be rerun)
 ```
+
 
 ## R Markdown
 
